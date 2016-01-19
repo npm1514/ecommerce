@@ -1,0 +1,48 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: beige;
+}
+
+header {
+  height: 200px;
+  width: 100%;
+  background-color: lightblue;
+}
+
+header h1 {
+  margin:auto;
+  text-align: center;
+  font-size: 75px;
+  font-family: fantasy;
+  padding-top: 50px;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+  background-color: #fff;
+  height: 900px;
+}
+
+.product {
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  height: 50px;
+  width: 100%;
+  background-color: #000;
+}
+
+footer p {
+  margin:auto;
+  text-align: center;
+  font-size: 35px;
+  font-family:sans-serif;
+  padding-top: 5px;
+  color: #fff;
+}

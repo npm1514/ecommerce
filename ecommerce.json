@@ -1,0 +1,34 @@
+// This is dummy data you can use for your app.
+
+{
+    "ecommerce": [{
+        "name": "hair dryer",
+        "order": "Anseriformes",
+        "status": "least concern"
+    },
+    {
+        "name": "toothpaste",
+        "order": "Passeriformes",
+        "status": "least concern"
+    },
+    {
+        "name": "dresser",
+        "order": "Accipitriformes",
+        "status": "least concern"
+    },
+    {
+        "name": "chair",
+        "order": "Charadriformes",
+        "status": "least concern"
+    },
+    {
+        "name": "milk",
+        "order": "Columbiformes",
+        "status": "extinct"
+    },
+    {
+        "name": "tweesers",
+        "order": "GALLIFORMES",
+        "status": "near threatened"
+    }]
+}
