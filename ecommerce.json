@@ -3,32 +3,32 @@
 {
     "ecommerce": [{
         "name": "hair dryer",
-        "order": "Anseriformes",
-        "status": "least concern"
+        "price": 10.28,
+        "description": "blows"
     },
     {
         "name": "toothpaste",
-        "order": "Passeriformes",
-        "status": "least concern"
+        "price": 4.12,
+        "description": "shines"
     },
     {
         "name": "dresser",
-        "order": "Accipitriformes",
-        "status": "least concern"
+        "price": 225.59,
+        "description": "contains"
     },
     {
         "name": "chair",
-        "order": "Charadriformes",
-        "status": "least concern"
+        "price": 45.26,
+        "description": "places"
     },
     {
         "name": "milk",
-        "order": "Columbiformes",
-        "status": "extinct"
+        "price": 2.55,
+        "description": "nourishes"
     },
     {
         "name": "tweesers",
-        "order": "GALLIFORMES",
-        "status": "near threatened"
+        "price": 5.89,
+        "description": "picks"
     }]
 }

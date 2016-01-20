@@ -5,11 +5,14 @@
     <title>Teeth Store</title>
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body ng-controller="mainCtrl">
+  <body ng-controller="teethCtrl">
     <header>
       <h1>Welcome to the Teeth Store!</h1>
     </header>
-
+    <div class="nav">
+      <a ui-sref="addmodify">Admin</a>
+      <a ui-sref="sell">Sell</a>
+    </div>
     <div class="container">
       <ui-view></ui-view>
     </div>
@@ -20,5 +23,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
     <script src="controllers/app.js" charset="utf-8"></script>
+    <script src="controllers/teethCtrl.js" charset="utf-8"></script>
+    <script src="controllers/teethService.js" charset="utf-8"></script>
   </body>
 </html>

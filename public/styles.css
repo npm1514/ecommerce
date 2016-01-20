@@ -2,6 +2,7 @@ body {
   height: 100%;
   width: 100%;
   background-color: beige;
+  text-align: center;
 }
 
 header {
@@ -10,12 +11,21 @@ header {
   background-color: lightblue;
 }
 
-header h1 {
+h1 {
   margin:auto;
   text-align: center;
   font-size: 75px;
   font-family: fantasy;
   padding-top: 10px;
+}
+
+h2, input {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.product input {
+  border: 0;
 }
 
 .product {
@@ -27,6 +37,7 @@ footer {
   height: 50px;
   width: 100%;
   background-color: #000;
+  margin-top: 100px;
 }
 
 footer p {

@@ -20,6 +20,7 @@
     "body-parser": "^1.14.2",
     "cors": "^2.7.1",
     "express": "^4.13.3",
-    "mongojs": "^2.3.0"
+    "mongojs": "^2.3.0",
+    "mongoose": "^4.3.6"
   }
 }
